@@ -82,6 +82,19 @@ and the refactored versions by
     <input type="submit" name="Text 1" value="Say">
   </div>
 </form>
+  <lr><p>Download instead?</p>
+  <form id="downloadform">
+  <div>
+    <label for="speechinput">Text to speak:</label>
+    <input size="60" id="speechinput" name="textfield" value="Hello, my name is SAM.">
+  <hr>
+    <label id="pitch-lbl" for="pitch">Pitch:   </label><input type="range" id="pitch" min="0" max="255" value="0" />
+    <label id="speed-lbl" for="speed">Speed:   </label><input type="range" id="speed" min="1" max="255" value="0" />
+    <label id="mouth-lbl" for="mouth">Mouth:   </label><input type="range" id="mouth" min="0" max="255" value="0" />
+    <label id="throat-lbl" for="throat">Throat: </label><input type="range" id="throat" min="0" max="255" value="0" />
+    <input type="submit" name="Text 1" value="Download">
+  </div>
+</form>
 <hr>
 
 <a href="https://github.com/discordier/sam">Github Repository with the source code</a>
